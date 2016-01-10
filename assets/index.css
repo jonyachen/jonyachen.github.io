@@ -3,7 +3,7 @@ html {
 }
 body {
     margin: 0px;
-    font-family: "Open Sans", "Helvetica", "Arial", sans serif;
+    font-family: 'Lato', sans-serif;
 }
 a {
     text-decoration: none;
@@ -12,38 +12,43 @@ a {
 }
 img {
     height: 100%;
+    width: 40%;
 }
 .clear {
     clear: both;
 }
-#pictureofme {
-    width: 600px;
+#my_picture {
+    width: 80%;
+    height: 85%;
     position: fixed;
+    margin-top: 50px;
+    margin-left: 110px;
     z-index: -10;
 }
 #content {
     position: fixed;
-    left: 55%;
-    top: 13%;
+    left: 50%;
+    top: 15%;
     margin-right: 100px;
 }
 #name {
-    font-size: 45px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 700;
 }
 #description {
     font-style: italic;
+    font-weight: 300;
 }
 .header {
     font-size: 30px;
-    font-weight: 100;
-    margin: 20px 0px 0px;
+    font-weight: 400;
+    margin: 40px 0px 0px;
 }
 .text {
-    font-size: 15;
+    font-size: 16;
     font-weight: 300;
     line-height: 25px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 #buttonbar {
     margin-top: 20px;
@@ -59,4 +64,25 @@ img {
     text-align: center;
     background: #D0D0D0;
     border-radius: 2px;
+}
+.floatingimagewrapper, .floatingimagewrapperwide, .floatingimagewrapperxwide {
+    float: right;
+    display: block;
+    background: #fff;
+    margin: 7px 0 20px 20px;
+    padding: 5px;
+    width: 207px;
+}
+
+.floatingimagewrapperwide {
+    width: 278px;
+}
+
+.floatingimagewrapperxwide {
+    width: 370px;
+}
+
+.floatingimagewrapperxwide a {
+    border: none;
+    text-decoration: none;
 }
