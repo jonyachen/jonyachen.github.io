@@ -1,121 +1,121 @@
-<!DOCTYPE html PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN” “http://www.w3.org/TR/html4/loose.dtd”>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-            
-        <!-- choose one
-         -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            
-        <title>Jonya Chen</title>
-        <!-- How to set up web icon -->
-        <!--
-        <link rel="icon"
-            type="image/png"
-            href="icon.ico">
-        -->
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="assets/index.css"/>
-        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-        <script src="assets/jquery-1.9.1.js"></script>
-        <script src="assets/script.js"></script>
-    </head>
-    <body>
-        <header class="header-fixed">
-            
-            <div class="header-limiter">
-                
-                <h1><a href="index.html">Jonya<span>Chen</span></a></h1>
-                
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="AboutMe.html">About Me</a>
-                    <!--
-                     <a href="#" class="selected">Blog</a>
-                     -->
-                    <a href="Portfolio.html">Portfolio</a>
-                    <a href="Lifestyle.html">Lifestyle</a>
-                    <a href="Resources.html">Resources</a>
-                    <a href="Contact.html">Contact</a>
-                </nav>
-                
-            </div>
-            
-        </header>
+    <title>Jonya Chen</title>
+    <!-- How to set up web icon -->
+    <!--
+     <link rel="icon"
+     type="image/png"
+     href="icon.ico">
+     -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
         
-        <!-- Prevents the content of the page from jumping up -->
-        <div class="header-fixed-placeholder"></div>
-        
-        <!-- Page content below -->
-        <div id="my_picture">
-            <img src="images/profilepic.jpg">
-        </div>
-        <div id="content">
-            <div id="name">Jonya Chen</div>
-            <div id="description">
-                Cornell University, Class of 2016
-            </div>
-            <div id="description">
-                Ithaca, NY
-            </div>
-            <div class="header">Hi! My name is Jonya Chen and here's a snapshot of my life.</div>
-            <div class="text">
-                I am currently a senior studying Electrical and Computer Engineering at Cornell University.
-            </div>
-            <div class="text">
-                Add more content here
-            </div>
-            <div class="text">
-                What would you like to explore?
-            </div>
-            <div class="text">
-                Contact me: <a href="mailto:jc957@cornell.edu" id="email">jc957@cornell.edu</a> or (724)799-5969
-            </div>
-            <div id="buttonbar">
-                <div class="button">
-                    <a href="https://www.linkedin.com/in/jonya-chen-8408a331">LinkedIn</a>
-                </div>
-                <div class="button">
-                    <a href="mailto:jc957@cornell.edu">Email</a>
-                </div>
-            </div>
-        </div>
-        
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script>
-            
-            $(document).ready(function(){
-                              
-                              var showHeaderAt = 150;
-                              
-                              var win = $(window),
-                              body = $('body');
-                              
-                              // Show the fixed header only on larger screen devices
-                              
-                              if(win.width() > 600){
-                              
-                              // When we scroll more than 150px down, we set the
-                              // "fixed" class on the body element.
-                              
-                              win.on('scroll', function(e){
-                                     
-                                     if(win.scrollTop() > showHeaderAt) {
-                                     body.addClass('fixed');
-                                     }
-                                     else {
-                                     body.removeClass('fixed');
-                                     }
-                                     });
-                              
-                              }
-                              
-                              });
-                              
-            </script>
+    <link rel="stylesheet" type="text/css" href="assets/index.css"/>
+    <script src="assets/jquery-1.9.1.js"></script>
+    <script src="assets/script.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        
-    </body>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Jonya Chen</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <!-- Main component -->
+      <div class="jumbotron">
+        <h1>Jonya Chen</h1>
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+        </p>
+      </div>
+
+    </div> <!-- /container -->
+    
+    <img src="images/profilepic.jpg" class="img-responsive" alt="Responsive image">
+    <h1>Jonya Chen</h1>
+    <h5><small>Cornell University, Class of 2016</h5>
+    <h5><small>Ithaca, NY</h5>
+    
+    <h4>Hi! My name is Jonya Chen and here's a snapshot of my life.</h4>
+    
+    <h5>I am currently a senior studying Electrical and Computer Engineering at Cornell University.</h5>
+    <h5>Add more content here</h5>
+    <h5>What would you like to explore?</h5>
+    <h5>Contact me: <a href="mailto:jc957@cornell.edu" id="email">jc957@cornell.edu</a> or (724)799-5969 </h5>
+    
+    <p>
+    <a class="btn btn-lg btn-primary" href="https://www.linkedin.com/in/jonya-chen-8408a331" role="button">LinkedIn</a>
+    <a class="btn btn-lg btn-primary" href="mailto:jc957@cornell.edu">Email</a>
+    </p>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>

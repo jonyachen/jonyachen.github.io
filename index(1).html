@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN” “http://www.w3.org/TR/html4/loose.dtd”>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            
+        <title>Jonya Chen</title>
+        <!-- How to set up web icon -->
+        <!--
+        <link rel="icon"
+            type="image/png"
+            href="icon.ico">
+        -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="assets/index.css"/>
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        <script src="assets/jquery-1.9.1.js"></script>
+        <script src="assets/script.js"></script>
+    </head>
+    <body>
+        <!--
+        <header class="header-fixed">
+            
+            <div class="header-limiter">
+                
+                <h1><a href="index.html">Jonya<span>Chen</span></a></h1>
+                
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="AboutMe.html">About Me</a>
+                    <a href="Portfolio.html">Portfolio</a>
+                    <a href="Lifestyle.html">Lifestyle</a>
+                    <a href="Resources.html">Resources</a>
+                    <a href="Contact.html">Contact</a>
+                </nav>
+                
+            </div>
+            
+        </header>
+        -->
+        
+        <!-- Prevents the content of the page from jumping up -->
+        <div class="header-fixed-placeholder"></div>
+        
+        <!-- Page content below -->
+        <div id="my_picture">
+            <img src="images/profilepic.jpg">
+        </div>
+        <div id="content">
+            <div id="name">Jonya Chen</div>
+            <div id="description">
+                Cornell University, Class of 2016
+            </div>
+            <div id="description">
+                Ithaca, NY
+            </div>
+            <div class="header">Hi! My name is Jonya Chen and here's a snapshot of my life.</div>
+            <div class="text">
+                I am currently a senior studying Electrical and Computer Engineering at Cornell University.
+            </div>
+            <div class="text">
+                Add more content here
+            </div>
+            <div class="text">
+                What would you like to explore?
+            </div>
+            <div class="text">
+                Contact me: <a href="mailto:jc957@cornell.edu" id="email">jc957@cornell.edu</a> or (724)799-5969
+            </div>
+            <div id="buttonbar">
+                <div class="button">
+                    <a href="https://www.linkedin.com/in/jonya-chen-8408a331">LinkedIn</a>
+                </div>
+                <div class="button">
+                    <a href="mailto:jc957@cornell.edu">Email</a>
+                </div>
+            </div>
+        </div>
+        
+        <!--
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            
+            $(document).ready(function(){
+                              
+                              var showHeaderAt = 150;
+                              
+                              var win = $(window),
+                              body = $('body');
+                              
+                              // Show the fixed header only on larger screen devices
+                              
+                              if(win.width() > 600){
+                              
+                              // When we scroll more than 150px down, we set the
+                              // "fixed" class on the body element.
+                              
+                              win.on('scroll', function(e){
+                                     
+                                     if(win.scrollTop() > showHeaderAt) {
+                                     body.addClass('fixed');
+                                     }
+                                     else {
+                                     body.removeClass('fixed');
+                                     }
+                                     });
+                              
+                              }
+                              
+                              });
+                              
+            </script>
+            -->
+        
+    </body>
+</html>
