@@ -6,7 +6,7 @@ body {
     font-family: "Open Sans", "Helvetica", "Arial", sans serif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cookie', cursive;
+    font-family: "Open Sans", "Helvetica", "Arial", sans serif;
 }
 .navbar-brand {
     font-size: 36px;
@@ -15,15 +15,21 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-brand {
     color: #1a8cff;
 }
-
+.featurette-divider {
+    margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
 a {
     text-decoration: none;
     cursor: pointer;
     color: black;
 }
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    max-width: 100%;
+}
+}
 img {
     height: 100%;
-    width: 40%;
+    width: 60%;
 }
 .clear {
     clear: both;
