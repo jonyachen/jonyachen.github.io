@@ -108,3 +108,25 @@ img {
     border: none;
     text-decoration: none;
 }
+
+.snippet {
+    width: 750px;
+}
+.snippet img{
+    width: auto;
+    height:auto;
+    float: left;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
