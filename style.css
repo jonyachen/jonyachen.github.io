@@ -152,7 +152,6 @@ img {
     margin-bottom: 10;
 }
 .skills .skillset .level-title .level-label {
-    color: #ccd1d6;
     font-size: 14px;
     font-weight: 400;
     font-family: "Lato", arial, sans-serif;
@@ -162,11 +161,11 @@ img {
 }
 .skills .skillset .level-bar {
     height: 15px;
-    background: #e8e8e8;
+    background: #ffffff;
 }
 .skills .skillset .level-bar-inner {
     height: 15px;
-    background: #66cb8c;
+    background: #00bd9c;
 }
 
 
