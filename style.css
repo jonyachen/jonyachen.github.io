@@ -5,6 +5,7 @@ body {
     margin: 0px;
     font-family: "Open Sans", "Helvetica", "Arial", sans serif;
     font-size: 16px;
+    padding-top: 50px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans", "Helvetica", "Arial", sans serif;
@@ -14,7 +15,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Cookie', cursive;
 }
 .navbar-default .navbar-brand {
-    color: #07bed1;
+    color: #00bd9c;
+}
+.navbar-portfolio{
+    padding-bottom: 0px;
 }
 .featurette-divider {
     margin: 40px 0; /* Space out the Bootstrap <hr> more */
@@ -34,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom:45px;
 }
 .portfolio-heading {
-    color: #07bed1;
+    color: #00bd9c;
 }
 a {
     text-decoration: none;
