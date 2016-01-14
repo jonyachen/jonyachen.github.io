@@ -14,13 +14,27 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Cookie', cursive;
 }
 .navbar-default .navbar-brand {
-    color: #1a8cff;
+    color: #07bed1;
 }
 .featurette-divider {
     margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
+.featurette-divider-portfolio {
+    margin: 0px 0; /* Space out the Bootstrap <hr> more */
+}
 .marketing .col-lg-4 {
     margin-top: 10px;
+}
+.row-even {
+    background-color:#D9D9D9;
+    padding-bottom:45px;
+}
+.row-odd {
+    background-color:#F2F2F2;
+    padding-bottom:45px;
+}
+.portfolio-heading {
+    color: #07bed1;
 }
 a {
     text-decoration: none;
