@@ -108,7 +108,8 @@ img {
     width: auto;
     height:auto;
     float: left;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-left:20px;
 }
 
 #social {
