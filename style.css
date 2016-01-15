@@ -1,3 +1,19 @@
+@media all and (max-width: 9902px) { /* screen size until 1000px */
+    h4 {
+        font-size: 0.9em; /* 0.8x default size */
+    }
+}
+@media all and (max-width: 768px) { /* screen size until 500px */
+    h4 {
+        font-size: 0.8em; /* 0.8x default size */
+    }
+}
+@media all and (max-width: 700px) { /* screen size until 500px */
+    h4 {
+        font-size: 0.6em; /* 0.8x default size */
+    }
+
+}
 html {
     background-color: #FFFFFF;
 }
