@@ -55,9 +55,6 @@ a {
     cursor: pointer;
     color: black;
 }
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    max-width: 100%;
-}
 
 
 .carousel-inner > .item > .carousel-image {
