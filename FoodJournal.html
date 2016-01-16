@@ -74,12 +74,6 @@
                 <br>
             </div>
             
-            <div class="row">
-                <div class="col-xs-12">
-                    <p>This page is currently a work in progress...check back later for more up-to-date content!</p>
-                </div>
-            </div><!-- /.row -->
-            
             <div class="jumbotron">
                 <blockquote>
                     <p>"People who love to eat are always the best people."</p>
@@ -92,16 +86,15 @@
                 <h2>EAT well, TRAVEL often</h2>
                 <p class="lead">Bonding over food is a common denominator that brings people together in every region and culture.  My favorite memories of travel are usually those created trying out new dishes at a local restaurant, huddling by a street cart vendor, or crammed elbow-to-elbow in a night market. I also often find myself scrolling through mouth watering food pictures when I'm bored. That is why I decided to create a personal collection of travel souvenirs through my food pictures. At each location, I've created a food photo journal. Enjoy!</p>
                 <p>
-                <a class="btn btn-lg btn-success" href="#" role="button">Ithaca, NY</a>
+                <a class="btn btn-lg btn-success" data-toggle="modal" data-target="#IthacaModal" role="button">Ithaca, NY</a>
                 <a class="btn btn-lg btn-success" href="#" role="button">New York, NY</a>
-                <a class="btn btn-lg btn-success" href="#" role="button">Boston, MA</a>
                 <a class="btn btn-lg btn-success" href="#" role="button">Singapore</a>
                 </p>
             </div>
             
             <!-- Carousel
              ================================================== -->
-             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="20000">
              <ol class="carousel-indicators">
              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
              <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -112,9 +105,9 @@
              <img class="first-slide" src="images/foodjournal/Ithaca/1.jpg" alt="First slide" class="img-responsive">
              <div class="container">
              <div class="carousel-caption">
-             <h1>Ithaca, NY</h1>
+             <h1><b>Ithaca, NY</b></h1>
              <p>Some description here</p>
-             <p><a class="btn btn-lg btn-primary" href="#" role="button">View Journal</a></p>
+             <p><a class="btn btn-lg btn-success" data-toggle="modal" data-target="#IthacaModal" role="button">View Food Journal</a></p>
              </div>
              </div>
              </div>
@@ -122,9 +115,9 @@
              <img class="second-slide" src="images/foodjournal/Ithaca/2.jpg" alt="Second slide">
              <div class="container">
              <div class="carousel-caption">
-             <h1>Another example headline.</h1>
+             <h1><b>New York, NY</b></h1>
              <p>Content TBD</p>
-             <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+             <p><a class="btn btn-lg btn-success" data-toggle="modal" data-target="#NewYorkModal" role="button">View Food Journal</a></p>
              </div>
              </div>
              </div>
@@ -132,9 +125,9 @@
              <img class="third-slide" src="images/foodjournal/Ithaca/3.jpg" alt="Third slide">
              <div class="container">
              <div class="carousel-caption">
-             <h1>One more for good measure.</h1>
+             <h1><b>Singapore</b></h1>
              <p>Content TBD</p>
-             <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+             <p><a class="btn btn-lg btn-success" data-toggle="modal" data-target="#SingaporeModal" role="button">View Food Journal</a></p>
              </div>
              </div>
              </div>
@@ -149,6 +142,12 @@
              </a>
              </div>
             <!-- /.carousel -->
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>This page is currently a work in progress...check back later for more up-to-date content!</p>
+                </div>
+            </div><!-- /.row -->
             
             <!-- FOOTER -->
             <footer>
@@ -199,6 +198,46 @@
                 </div>
             </div>
         </div><! --/footerwrap -->
+        
+        <!-- Modal - Ithaca -->
+        <div class="modal fade" id="IthacaModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="modal-title text-center" id="IthacaModalLabel"><b>Ithaca, NY</b></h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                                <div class="thumbnail">
+                                    <img src="images/foodjournal/Ithaca/1.jpg" alt="1">
+                                        <div class="caption text-center">
+                                            <h2>Red's Place</h2>
+                                            <p><b>Chicken Club Artisan Sandwich</b></p>
+                                        </div>
+                                </div>
+                                <div class="thumbnail">
+                                    <img src="images/foodjournal/Ithaca/2.jpg" alt="1">
+                                        <div class="caption text-center">
+                                            <h2>Coltivare</h2>
+                                            <p><b>Bacon Egg Burger</b><br>Fried egg, crispy bacon, hot sauce, house-cut fries</p>
+                                        </div>
+                                </div>
+                                <div class="thumbnail">
+                                    <img src="images/foodjournal/Ithaca/3.jpg" alt="1">
+                                        <div class="caption text-center">
+                                            <h2>Agava</h2>
+                                            <p><b>Crabby Patty</b><br>Two fried eggs, crispy crab fritters, braised greens, charred tomato hollandaise, home fries</p>
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <!-- Bootstrap core JavaScript
          ================================================== -->
