@@ -83,12 +83,6 @@ a {
     background-position: center top;
     background-size: cover;
 }
-
-
-img {
-    height: 100%;
-    width: 60%;
-}
 .clear {
     clear: both;
 }
