@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-brand {
     font-size: 36px;
-    font-family: 'Cookie', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .navbar-default .navbar-brand {
     color: #00bd9c;
