@@ -1081,8 +1081,8 @@ html {
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+body { /*for font-family, nav bar and paragraph text. for all other fields, only nav bar*/
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -1184,7 +1184,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif; /*headings font*/
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1282,7 +1282,7 @@ h4,
 h5,
 .h5 {
   font-size: 20px;
-  color: #1DBC9C;
+  color: #1fc7a5;
 }
 h6,
 .h6 {
@@ -4501,9 +4501,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
-  color: #1DBC9C;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 38px;
+  color: #1fc7a5;
+  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+  font-family: 'Lobster', Georgia, Times, serif;
+  font-size: 35px;
 }
 
 .navbar-default .navbar-brand:hover,
